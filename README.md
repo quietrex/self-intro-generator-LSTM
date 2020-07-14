@@ -19,8 +19,8 @@ To assist airbnb user to generate self-introduction with deep learning model.
 
 ## First and Second Pre-processing
 ```
-Preprocessing
-1. The initial preprocessing has already undergone before saving into scraping-test.csv. Initial preprocessing can be found in initial_preprocessing.py.
+1. Preprocessing
+The initial preprocessing has already undergone before saving into scraping-test.csv. Initial preprocessing can be found in initial_preprocessing.py.
   Initial preprocessing does the follows:
 
   1. Replace contractions (i.e. from "isn't" to "is not", from "aren't" to "are not" and etc). More contractions examplescan be found in contractions.py
