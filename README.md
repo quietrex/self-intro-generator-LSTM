@@ -21,8 +21,8 @@ To assist airbnb user to generate self-introduction with deep learning model.
 ```
 1. Preprocessing
 The initial preprocessing has already undergone before saving into scraping-test.csv. Initial preprocessing can be found in initial_preprocessing.py.
+  
   Initial preprocessing does the follows:
-
   1. Replace contractions (i.e. from "isn't" to "is not", from "aren't" to "are not" and etc). More contractions examplescan be found in contractions.py
   2. Sets all text tower case
   3. Remove url links, including the url with starts with www. and/or https://www.
@@ -32,11 +32,11 @@ The initial preprocessing has already undergone before saving into scraping-test
 
 2. Second preprocessing.
 The second preprocessing in this jupyter will undergo several procedures before building the model.
+
 The second preprocessing does the follows:
   1. Remove square brackets from the dataset.
   2. Splits the words up, then assigns a unique integer to each word
   3. Replaces all instances of that word with the integer.
-
 ```
 
 ## How to run ipynb file
